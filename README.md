@@ -6,10 +6,11 @@
 <p align="center">
 
 <!-- language -->
-<img src="https://img.shields.io/badge/Julia-1.6.1-blue" alt="Julia: 1.6.1">
-
+<img src="https://img.shields.io/badge/Swift-5.3-FFAC45.svg" alt="Swift: 5.3">
+<img src="https://img.shields.io/badge/Moya-14.0.0-purple" alt="Moya: 14.0.0">
+	
 <!-- inprogress or completed -->
-<img src="https://img.shields.io/badge/-completed-green" alt="completed">
+<!-- <img src="https://img.shields.io/badge/-completed-green" alt="completed"> -->
 	
 <!-- inprogress or completed -->
 <img src="https://img.shields.io/badge/-in%20progress-red" alt="in progress">
@@ -18,7 +19,7 @@
 <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">
 	
 <!-- week of year -->
-<img src="https://img.shields.io/badge/week-0-green" alt="in progress">
+<img src="https://img.shields.io/badge/week-30-green" alt="in progress">
 
 </p>
 
