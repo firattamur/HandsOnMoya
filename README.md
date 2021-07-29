@@ -1,5 +1,5 @@
 <h3 align="center">
-	Title
+	Hands On Moya
 </h3>
 
 <!-- badges -->
@@ -23,23 +23,16 @@
 </p>
 
 <h4 align="center">
-Project Description
+A simple app to learn networking practices with Moya.
 </h4>
 
-<h3>
-Usage:
-</h3><hr>
-
-```python
-print("Hello, Github")
-```
 
 <h3>
 Goals:
 </h3><hr>
 
-- [ ] Create an awesome repository.
-- [x] Create an awesome readme.
+- [ ] Learn basics of Moya.
+- [ ] Build samples networking layers with Moya. 
 
 <h3>
 References:
