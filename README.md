@@ -33,7 +33,7 @@ Goals:
 </h3><hr>
 
 - [ ] Learn basics of Moya.
-- [ ] Build samples networking layers with Moya. 
+- [ ] Build sample networking layers with Moya. 
 
 <h3>
 References:
