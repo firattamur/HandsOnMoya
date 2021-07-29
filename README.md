@@ -24,7 +24,7 @@
 </p>
 
 <h4 align="center">
-A simple app to learn networking practices with Moya.
+Build simple apps to learn networking practices with Moya.
 </h4>
 
 
