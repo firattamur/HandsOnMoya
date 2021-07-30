@@ -39,4 +39,5 @@ Goals:
 References:
 </h3><hr>
 
-1. [Reference]()
+1. [Raywenderlich - Moya Tutorial](https://www.raywenderlich.com/5121-moya-tutorial-for-ios-getting-started)
+2. [Kilo Loco - Moya Tutorial](https://www.youtube.com/watch?v=ldiV554Kk7o)
