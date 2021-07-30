@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01AEF15326B42F3A00AA787E /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AEF15226B42F3A00AA787E /* MarvelAPI.swift */; };
 		3A1073D67C6B19EFFAACF9C2 /* Pods_ComicCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DFA27A0B388961C8792A77 /* Pods_ComicCards.framework */; };
 		5C2901831F8F6DE700803663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */; };
 		7808ECB020879B320042B134 /* CoolStoryregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7808ECAF20879B320042B134 /* CoolStoryregular.ttf */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01AEF15226B42F3A00AA787E /* MarvelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
 		18DFA27A0B388961C8792A77 /* Pods_ComicCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComicCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		193BF8E93A4464BB845F6D29 /* Pods-ComicCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComicCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComicCards/Pods-ComicCards.release.xcconfig"; sourceTree = "<group>"; };
 		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				78CBCC082082654600FBF930 /* CodableResponses.swift */,
+				01AEF15226B42F3A00AA787E /* MarvelAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AEF15326B42F3A00AA787E /* MarvelAPI.swift in Sources */,
 				78CBCBFD20823E2700FBF930 /* ComicsViewController.swift in Sources */,
 				7808ECB620888D400042B134 /* UploadResult.swift in Sources */,
 				78CBCC0B20826AFF00FBF930 /* Date+ISO8601.swift in Sources */,

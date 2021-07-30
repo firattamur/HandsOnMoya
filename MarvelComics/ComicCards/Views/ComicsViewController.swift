@@ -62,10 +62,40 @@ class ComicsViewController: UIViewController {
   @IBOutlet weak private var lblMessage: UILabel!
   @IBOutlet weak private var imgMeessage: UIImageView!
 
+  private let provider = MoyaProvider<MarvelAPI>()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    state = .error
+    state = .loading
+    
+    self.provider.request(.comics) { result in
+      
+      switch result {
+        
+      case .failure(let error):
+        
+        print("API request failed -> \(error)")
+        self.state = .error
+        
+      case .success(let response):
+        
+        print("API request succeed -> \(response)")
+        
+        do {
+          
+          self.state = .ready(try response.map(MarvelResponse<Comic>.self).data.results)
+          
+        }catch {
+          
+          self.state = .error
+          
+        }
+      
+      }
+      
+    }
+    
   }
 }
 
