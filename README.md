@@ -32,8 +32,8 @@ Build simple apps to learn networking practices with Moya.
 Goals:
 </h3><hr>
 
-- [ ] Learn basics of Moya.
-- [ ] Build sample networking layers with Moya. 
+- [X] Learn basics of Moya.
+- [X] Build sample networking layers with Moya. 
 
 <h3>
 References:
